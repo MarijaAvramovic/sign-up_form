@@ -2,6 +2,10 @@ body{
     padding: 0;
     margin: 0;
 }
+@font-face {
+    font-family: Norse-Bold;
+    src: url(Norse-Bold.otf);
+}
 .container {
     display: flex;
     
@@ -21,7 +25,8 @@ body{
     display: flex;
     justify-content: center;
     gap: 0.3rem;
-    font-size: 3rem;;
+    font-size: 4rem;
+    font-family: Norse-Bold;
  }
   .logo img{
     height: 5rem;
