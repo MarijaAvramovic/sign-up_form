@@ -4,12 +4,9 @@ Making a a sign-up form for an imaginary service.
  
 Step 2: Gather assets
 The design has a large background-image that can be found on unsplash.com, thanks to Halie West. 
+I used an external font for the ‘logo’ section. We’ve used Norse Bold, but you can use any font you like.
+For the image-sidebar,I've used Odin logo.
 
-
-Pick an external font for the ‘logo’ section. We’ve used Norse Bold, but you can use any font you like.
-For the image-sidebar, we’ve used this Odin logo.
-Step 3: Some tips!
-How you attack this project is mostly up to you, but it is wise to begin by scaffolding out the structure of the page, and then tackle the various sections one by one.
 The area behind the “ODIN” logo is a div that has a dark, but semi-transparent background color. This enhances the readability of the text against the busy background image.
 The color we’ve chosen for the ‘Create Account’ button is similar to tones found in the background image. Specifically, it is #596D48.
 The inputs, by default have a very light border (#E5E7EB), but we’ve included 2 variations. For starters, the password inputs should have a red border if they contain an invalid password. This can be handled with the :invalid pseudo-class you’ve learned in the previous lesson.
