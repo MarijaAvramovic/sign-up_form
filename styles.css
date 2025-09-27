@@ -12,5 +12,17 @@ body{
     background-image: url(halie-west-25xggax4bSA-unsplash.jpg);
     background-size: cover;
     background-position: center;
+    padding-top: 2px;
+     
 }
- 
+ .logo {
+    margin-top: 25vh;
+    color: white;
+    display: flex;
+    justify-content: center;
+    gap: 0.3rem;
+     
+ }
+  .logo img{
+    height: 5rem;
+  }
