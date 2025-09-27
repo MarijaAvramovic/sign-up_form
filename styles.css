@@ -21,8 +21,12 @@ body{
     display: flex;
     justify-content: center;
     gap: 0.3rem;
-     
+    font-size: 3rem;;
  }
   .logo img{
     height: 5rem;
+  }
+  .logo div {
+    text-align: center;
+    margin: auto 0;
   }
