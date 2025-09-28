@@ -78,6 +78,7 @@ body{
  form {
     padding-bottom: 20px;
     font-size: 0.6rem;
+    color: #525252;
     font-family: serif;
     width: 50%;
     display: flex;
@@ -88,7 +89,8 @@ body{
   }
   .form input{
      width: 90%;
-      
+    margin-bottom: 3%;
+    font-family: inherit;
   }
   .create-account button {
      background-color: #596D48;
