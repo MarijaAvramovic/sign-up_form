@@ -10,3 +10,6 @@ For the image-sidebar,I've used Odin logo.
 The inputs, by default have a very light border (#E5E7EB), the password inputs have a red border if they contain an invalid password. 
 The selected input has a blue border and subtle box-shadow.(pseudo-class)
  
+ Time spent: 4h
+
+ Next step: validation

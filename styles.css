@@ -2,10 +2,11 @@ body{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    
 }
 @font-face {
     font-family: Norse-Bold;
-    src: url(Norse-Bold.otf);
+    src: url(Norse-Bold.otf); 
 }
 .container {
     display: flex;
@@ -33,7 +34,7 @@ body{
     
     font-family: Norse-Bold;
     background-color: rgba(0, 0, 0, 0.5);
-    margin-top: 30%;
+    margin-top: 40%;
     align-items: center;
      
  }
@@ -53,7 +54,7 @@ body{
   .footer {
     font-size: 0.7rem;
     text-align: center;
-    margin-bottom: 0.5rem;
+    margin-bottom: 1rem;
   }
 
    .right  {
@@ -65,26 +66,27 @@ body{
   } 
   .intro{
      width: 40%;
-     margin-bottom: 2%;
+     margin-bottom: 6%;
      font-weight: 600;
 
   }
   .right > div {
-    padding-left: 1rem;
+    padding-left: 2rem;
   } 
   .form {
     background-color:  white;
     box-shadow: 0 4px 6px -2px rgba(0, 0, 0, 0.4);
     padding-top: 0.1rem; 
-    margin-bottom: 2%;
+    margin-bottom: 5%;
   }
  form {
     padding-bottom: 20px;
     font-size: 0.6rem;
     color: #525252;
     font-family: serif;
-    width: 50%;
+    width: 45%;
     display: flex;
+    justify-content: space-between;
   }
   .form label{
      font-weight: 600;
@@ -111,8 +113,16 @@ body{
   .create-account button {
      background-color: #596D48;
      color: white;
-     padding:  10px 20px;
+     padding:  10px 25px;
      border-radius: 3%;
-     font-size: 0.5rem;
+     font-size: 0.7rem;
      border: 0;
+     font-weight: 600;
+     margin-bottom: 5px;
+  }
+  a{
+    color: #596D48;
+  }
+   a:hover{
+    color: #73f600;
   }
